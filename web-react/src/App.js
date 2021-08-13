@@ -151,7 +151,7 @@ export default function App() {
           position="absolute"
           className={clsx(classes.appBar, open && classes.appBarShift)}
         >
-          <Toolbar className={classes.toolbar}>
+          <Toolbar className={classes.toolbar} style={{backgroundColor: 'green'}}>
             <IconButton
               edge="start"
               color="inherit"
@@ -176,7 +176,7 @@ export default function App() {
               noWrap
               className={classes.title}
             >
-              Welcome To GRANDstack App
+              Welcome To GRANDstack App - Version 2
             </Typography>
           </Toolbar>
         </AppBar>
