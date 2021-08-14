@@ -37,6 +37,7 @@
     "babel-plugin-auto-import": "^1.0.5",
     "babel-plugin-module-resolver": "^4.0.0",
     "cross-env": "^7.0.2",
+    "graphql": "^15.5.1",
     "nodemon": "^1.19.1",
     "shx": "^0.3.2"
   }
